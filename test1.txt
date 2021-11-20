@@ -1,0 +1,11 @@
+public void addSpIP(int newEntry)
+    {
+          
+                
+                for(int i=0;i<=6;i++)
+                    noOfPackets[i]=noOfPackets[i+1];
+                noOfPackets[head]=newEntry;
+                
+          
+            
+	}
